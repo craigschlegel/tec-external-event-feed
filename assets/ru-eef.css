@@ -1,0 +1,151 @@
+.ru-eef-my-events {
+    visibility: visible !important;
+}
+.ru-eef-my-event-title:before {
+    display: none;
+}
+.ru-eef-my-event-single:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.ru-eef-hidden-initially {
+    display: none;
+}
+.ru-eef-my-event-single {
+    border-bottom: 1px solid #666;
+}
+.ru-eef-my-events .ru-eef-my-event-date {
+    background: #666;
+    box-sizing: border-box;
+    display: inline;
+    float: left;
+    font-weight: 700;
+    margin: 10px 5% 10px 0;
+    overflow: hidden;
+    padding: 3px;
+    text-align: center;
+    width: 15%
+}
+
+.ru-eef-my-events .ru-eef-my-event-info {
+    display: inline;
+    float: left;
+    margin: 10px 0;
+    width: 80%
+}
+
+.ru-eef-my-event-duration {
+    margin-bottom: 14px;
+}
+
+.ru-eef-my-events .ru-eef-my-event-date .ru-eef-my-event-dayname {
+    background: #fff;
+    color: #666;
+    display: block;
+    font-size: 11px;
+    letter-spacing: .5px;
+    padding: 3px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.ru-eef-my-events .ru-eef-my-event-date .ru-eef-my-event-daynumber {
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    width: 100%
+}
+
+.ru-eef-my-events .ru-eef-my-event-date .ru-eef-my-event-daymonth {
+    background: #fff;
+    color: #666;
+    display: block;
+    font-size: 12px;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%
+}
+
+.ru-eef-my-events .ru-eef-my-event-info {
+    font-size: 13px;
+    line-height: 1.6
+}
+
+.ru-eef-my-events .ru-eef-my-event-info h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 0 0 6px;
+}
+
+.ru-eef-my-events .ru-eef-my-event-info p {
+    display: none;
+    margin: 5px 0
+}
+
+.ru-eef-my-events.first .ru-eef-my-event-info p {
+    display: block
+}
+
+.ru-eef-my-events .ru-eef-my-event-event-schedule-details,
+.ru-eef-attendee-action {
+    display: inline-block
+}
+.ru-eef-my-events .ru-eef-attendee-action {
+    display: inline-block;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+.ru-eef-my-events .ru-eef-attendee-action a {
+    padding: 2px 6px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.ru-eef-my-events .ru-eef-attendee-action a:hover,
+.ru-eef-my-events .ru-eef-attendee-action input[type=submit]:hover {
+    opacity: .8;
+}
+.ru-eef-my-events .ru-eef-my-event-single .ru-eef-my-event-unregister {
+    background: #fff;
+    border: 1px solid #666;
+}
+.ru-eef-my-events .ru-eef-my-event-single .ru-eef-my-event-unregister a {
+    font-weight: 400;
+    color: #666;
+}
+.ru-eef-my-event-single .ru-eef-my-event-edit {
+    background-color: #FF8F2E;
+    color: #fff;
+    border: 1px solid #FF8F2E;
+}
+.ru-eef-my-events input[type=submit] {
+    border: 1px solid #7697D2;
+    border-radius: 5px;
+    color: #fff;
+    background: #7697D2;
+    font-weight: 700;
+    line-height: 1.2;
+    outline: none;
+    padding: 3px 6px;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+.ru-eef-my-event-duration,
+.ru-eef-attendee-action,
+.ru-eef-my-events input[type=submit]{
+    font-size: 14px;
+}
+/* On mobile make the min-width 100% */
+@media all and (max-width: 540px){
+    .ru-eef-my-events .ru-eef-attendee-action {
+        float: left;
+        clear: left;
+        margin-bottom: 3px;
+    }
+}
